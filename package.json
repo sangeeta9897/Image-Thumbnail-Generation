@@ -7,7 +7,8 @@
     "test": "mocha — timeout 10000",
     "build": "babel ./ --out-dir dist --ignore ./node_modules,./.babelrc,./package.json,./package-lock.json,./dist  --copy-files",
     "start": "npm run build && node dist/index.js",
-    "nodemon": "npm start"
+    "nodemon": "npm start",
+    "pretest": "./node_modules/.bin/eslint ./src --fix "
   },
   "author": "Sangeeta Sharma",
   "license": "ISC",

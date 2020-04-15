@@ -1,6 +1,5 @@
 export default class Utils {
-
-  response(status, description) {
+  response (status, description) {
     var responseObject = {
       status: status,
       description: description

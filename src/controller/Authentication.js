@@ -8,7 +8,7 @@ const utils = new Utils()
 const logger = new Logger()
 
 export default class Authentication {
-  signIn(req, res) {
+  signIn (req, res) {
     try {
       const username = req.body.username
       const payload = {
@@ -25,7 +25,7 @@ export default class Authentication {
     }
   }
 
-  tokenVerification(req, res, next) {
+  tokenVerification (req, res, next) {
     var token = req.headers.token
     if (token) {
       var valid = false
