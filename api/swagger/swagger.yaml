@@ -1,0 +1,25 @@
+swagger: "2.0"
+info:
+  title: Thumbnail API
+  version: 1.0.0
+host: localhost:5000
+basePath: /
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /signIn:
+    post:
+      description: To Sign In to the App
+      operationId: signIn
+      parameters: 
+        - name: username
+          in: query
+          type: string
+        - name: password
+          in: query
+          type: string
+      

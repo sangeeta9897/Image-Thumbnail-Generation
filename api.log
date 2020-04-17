@@ -1,2 +1,54 @@
 [2020-04-15T20:53:35.056] [ERROR] api - { status: 400, description: 'Wrong Url Specified' }
 [2020-04-15T20:53:37.858] [INFO] api - Sign in sucessfully and token generated
+[2020-04-17T16:25:57.053] [INFO] api - Sign in sucessfully and token generated
+[2020-04-17T16:27:41.733] [INFO] api - Sign in sucessfully and token generated
+[2020-04-17T16:28:09.304] [INFO] api - Sign in sucessfully and token generated
+[2020-04-17T16:29:20.875] [INFO] api - Sign in sucessfully and token generated
+[2020-04-17T16:31:46.296] [INFO] api - Sign in sucessfully and token generated
+[2020-04-17T16:32:34.523] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:15:36.343] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:19:05.829] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:19:31.545] [ERROR] api - { status: 400, description: 'Token not provided' }
+[2020-04-18T00:20:56.798] [ERROR] api - { status: 400, description: 'Session Expired' }
+[2020-04-18T00:21:16.066] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:21:32.038] [ERROR] api - { status: 400, description: 'Session Expired' }
+[2020-04-18T00:21:37.523] [ERROR] api - { status: 400, description: 'Session Expired' }
+[2020-04-18T00:21:40.259] [ERROR] api - { status: 400, description: 'Session Expired' }
+[2020-04-18T00:23:05.533] [ERROR] api - { status: 400, description: 'Session Expired' }
+[2020-04-18T00:23:39.007] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:24:08.359] [ERROR] api - { status: 400, description: 'Session Expired' }
+[2020-04-18T00:24:31.817] [ERROR] api - { status: 400, description: 'Session Expired' }
+[2020-04-18T00:26:15.844] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:26:25.379] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:26:54.173] [ERROR] api - { status: 400, description: 'Wrong Url Specified' }
+[2020-04-18T00:28:20.037] [INFO] api - Image successfully converted and sent
+[2020-04-18T00:29:15.909] [ERROR] api - { status: 400, description: 'No Url Specified' }
+[2020-04-18T00:38:23.422] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:38:37.412] [INFO] api - Image successfully converted and sent
+[2020-04-18T00:38:47.573] [INFO] api - Image successfully converted and sent
+[2020-04-18T00:38:56.215] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:40:10.582] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:41:32.684] [ERROR] api - { status: 400, description: 'No Url Specified' }
+[2020-04-18T00:42:00.406] [INFO] api - Image successfully converted and sent
+[2020-04-18T00:46:00.185] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:46:12.640] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:46:21.800] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:46:46.289] [INFO] api - Image successfully converted and sent
+[2020-04-18T00:54:24.703] [ERROR] api - { status: 400, description: 'Username/Password required' }
+[2020-04-18T00:54:24.707] [ERROR] api - { status: 400, description: 'Please try again, token error' }
+[2020-04-18T00:55:45.613] [ERROR] api - { status: 400, description: 'Username/Password required' }
+[2020-04-18T00:55:45.622] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:55:45.625] [ERROR] api - { status: 400, description: 'Please try again, token error' }
+[2020-04-18T00:55:58.505] [ERROR] api - { status: 400, description: 'Username/Password required' }
+[2020-04-18T00:55:58.507] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:55:58.507] [ERROR] api - { status: 400, description: 'Please try again, token error' }
+[2020-04-18T00:56:07.423] [ERROR] api - { status: 400, description: 'Username/Password required' }
+[2020-04-18T00:56:07.426] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:56:07.426] [ERROR] api - { status: 400, description: 'Please try again, token error' }
+[2020-04-18T00:57:22.771] [ERROR] api - { status: 400, description: 'Username/Password required' }
+[2020-04-18T00:58:01.905] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T00:58:25.337] [INFO] api - Image successfully converted and sent
+[2020-04-18T00:58:36.809] [ERROR] api - { status: 400, description: 'Username/Password required' }
+[2020-04-18T00:58:46.212] [ERROR] api - { status: 400, description: 'Username/Password required' }
+[2020-04-18T01:09:19.571] [INFO] api - Sign in sucessfully and token generated
+[2020-04-18T01:09:22.943] [INFO] api - Image successfully converted and sent

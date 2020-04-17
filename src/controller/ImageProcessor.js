@@ -8,8 +8,14 @@ const logger = new Logger()
 const utils = new Utils()
 
 export default class ImageProcessor {
-  async getThumbnail (req, res) {
-    // var url = "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+
+  /**
+   * downloads the image from the url and returns the resized image of 50X50 pixel.
+   * @param {Request Object} req - get the url in the body
+   * @param {Response Object} res
+   */
+
+  async getThumbnail(req, res) {
     var url = req.body.url
     if (url) {
       try {
