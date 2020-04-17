@@ -4,6 +4,9 @@ import ImageProcessor from './src/controller/ImageProcessor'
 import swaggerJsDoc from 'swagger-jsdoc'
 import swaggerUi from 'swagger-ui-express'
 import bodyParser from 'body-parser'
+import Utils from './src/controller/utils'
+
+const utils = new Utils()
 
 const swaggerOptions = {
   swaggerDefinition: {
@@ -67,7 +70,7 @@ app.post('/signIn', authenticate.signIn)
  *      description: A sucessfull response
  */
 app.post('/getThumbnailImage', authenticate.tokenVerification, imageProcessor.getThumbnail)
-app.use('/*', (req, res) => { })
+app.use('/*', (req, res) => { res.status(404).send(utils.response(404, 'Route not found')) })
 
 var server = app.listen(port, () => {
   console.log('Listening to port 5000')
