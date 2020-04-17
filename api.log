@@ -52,3 +52,4 @@
 [2020-04-18T00:58:46.212] [ERROR] api - { status: 400, description: 'Username/Password required' }
 [2020-04-18T01:09:19.571] [INFO] api - Sign in sucessfully and token generated
 [2020-04-18T01:09:22.943] [INFO] api - Image successfully converted and sent
+[2020-04-18T01:20:32.483] [INFO] api - Sign in sucessfully and token generated

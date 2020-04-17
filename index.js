@@ -12,7 +12,7 @@ const swaggerOptions = {
       contact: {
         name: 'Sangeeta Sharma'
       },
-      server: ['http://localhost:5000']
+      server: ['https://thumbnail-generator-node.herokuapp.com/']
     }
   },
   apis: ['index.js']
