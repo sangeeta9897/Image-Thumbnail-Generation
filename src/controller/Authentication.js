@@ -16,7 +16,7 @@ export default class Authentication {
    * @param {Response Object} res
    */
 
-  signIn(req, res) {
+  signIn (req, res) {
     try {
       const username = req.body.username
       const password = req.body.password
@@ -45,7 +45,7 @@ export default class Authentication {
    * @param {Callback Function} next
    */
 
-  tokenVerification(req, res, next) {
+  tokenVerification (req, res, next) {
     var token = req.headers.token
     if (token) {
       var valid = false

@@ -8,14 +8,13 @@ const logger = new Logger()
 const utils = new Utils()
 
 export default class ImageProcessor {
-
   /**
    * downloads the image from the url and returns the resized image of 50X50 pixel.
    * @param {Request Object} req - get the url in the body
    * @param {Response Object} res
    */
 
-  async getThumbnail(req, res) {
+  async getThumbnail (req, res) {
     var url = req.body.url
     if (url) {
       try {
